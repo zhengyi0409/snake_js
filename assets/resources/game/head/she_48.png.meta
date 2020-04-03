@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "9a402a97-8271-4701-8834-781105d61e26",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "she_48": {
+      "ver": "1.0.3",
+      "uuid": "f168372f-1e2c-4690-88a8-0eb752e2cd17",
+      "rawTextureUuid": "9a402a97-8271-4701-8834-781105d61e26",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1.5,
+      "offsetY": 5.5,
+      "trimX": 19,
+      "trimY": 19,
+      "width": 63,
+      "height": 185,
+      "rawWidth": 104,
+      "rawHeight": 234,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "e7f6725b-df6b-4894-9229-bc23ffbea83e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "findFriendsIcon_bg": {
+      "ver": "1.0.3",
+      "uuid": "2c305c95-53ec-446d-9a1c-6664eab1019d",
+      "rawTextureUuid": "e7f6725b-df6b-4894-9229-bc23ffbea83e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 167,
+      "height": 58,
+      "rawWidth": 167,
+      "rawHeight": 58,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

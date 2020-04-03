@@ -1,0 +1,69 @@
+
+window.ProtoEnum = {
+	CMD_USER_LOGIN_ACK    :   0x0001, //用户登录应答
+	CMD_USER_HEARTBEST		: 0x0004, // 心跳
+	CMD_SESSION_NTF    :   0x0800,  // 2048开始会话
+	CMD_SLITHER_NTF    :   0x0801, //2049蛇信息
+	CMD_FOOD_NTF       :   0x0802, // 2050食物信息通知
+	CMD_NICKNAME_UPDATE	 : 0x0805, // 2053更新昵称
+	CMD_CHANGE_DIRECTION_ACK : 0x0808, // 2056改变方向应答
+	CMD_SINGLE_RANK_NTF	 : 0x0809, // 2057 个人排行信息
+	CMD_PART_RANK_NTF	: 0x080A, //2058 排行榜信息
+	CMD_FOODEX_NTF	: 0x080B,  // 2059 同CMD_FOOD_NTF
+	CMD_NICKNAME_UPDATE_ACK	: 0x080C, // 2060更新昵称应答
+	CMD_GET_FOOD	        : 0x080D, // 2061获取食物信息
+	CMD_EAT_FOOD			: 0x080E, // 2062 吃食物
+	CMD_SLITHER_DEAD	    : 0x080F, //2063 蛇死亡
+
+    CMD_SYNC_FLYGOODS　　　　:0x0858, // 移动食物
+    CMD_REDIRECT_NTF		: 0x0810, // 2064 重定向通知
+	CMD_NICKNAME_UPDATE_NTF	: 0x0811,// 2065 更新昵称通知
+	CMD_SESSION_START	    : 0x0812,// 2066 开始会话
+	CMD_SESSION_STOP		: 0x0820, // 2080
+
+	CMD_OFFLINE_NTF     : 0x081A,  // 2074 用户下线通知
+	
+	CMD_SYNC_REG		: 0x0850, // 2128 同步注册
+	CMD_SYNC_REG_ACK	: 0x0851, // 2129同步注册应答
+	CMD_SYNC_POS		: 0x0852, // 2130同步位置
+	CMD_SYNC_POS_NTF	: 0x0853, // 2131同步位置通知
+	CMD_SYNC_GET_POS	: 0x0854, // 2132获取同步位置
+	CMD_SYNC_TRACE		: 0x0856, // 2133同步轨迹
+	
+	CMD_GET_GCLOUD_TOKEN_ACK   : 0x0817, // 2071 获取token
+	CMD_GET_GCLOUD_AUTHKEY_ACK : 0x0822, // 2082 获取authkey
+	CMD_AUDIO_FILE_NTF         : 0x0823, // 2083 语音文件通知
+	CMD_GRAB_MIC               : 0x0824, // 2084 抢麦
+	CMD_GRAB_MIC_ACK           : 0x0825, // 2085 抢麦应答
+
+	// 聊天协议
+	CMD_CHAT_PEER 		: 0x0813, // 2067 聊天p2p
+	CMD_CHAT_PEER_ACK	: 0x0818, // 2072 聊天p2p应答
+	CMD_CHAT_WORLD 		: 0x0814, // 2068 聊天WOELD
+	CMD_CHAT_WORLD_ACK	: 0x0819, // 2073 聊天WORLD应答
+
+	CMD_TEAM_CHAT		: 0x088B, // 2187
+	//心跳
+	CMD_USER_HEARTBEAT_ACK	: 0x0005, // 5
+	//重新开始
+	CMD_SESSION_RESTART	: 0x0826, //2086
+	//结算
+	CMD_GAME_RESULT_NTF	: 0x0828, // 2088  游戏结果通知
+    CMD_SLITHER_RESULT_NTF :  0x0830,  // 游戏结果通知
+	CMD_SYNC_FOOD       : 0x0857, // 2134
+
+	CMD_TEAM_AUDIO_FILE_NTF		: 0x088D, //2189
+	CMD_TEAM_GRAB_MIC           : 0x088E, //2190
+	CMD_TEAM_GRAB_MIC_ACK       : 0x088F, // 2191
+	
+	CMD_TEAM_RESULT_NTF			: 0x0887,	// 2183 团战结算通知
+	CMD_TEAM_FIGHT_NTF			: 0x0892, 	// 2194 团战击杀首领
+	CMD_TEAM_RECOVER			: 0x0893,	// 2195  团战强退
+	CMD_TEAM_RECOVER_ACK		: 0x0894,   // 2196
+	CMD_TEAM_NUMBER_NTF			: 0x0895, 	// 2197 战场内的人数
+
+	CMD_SOCKET_CLOSE            : 0x084B,   // 断开连接
+    CMD_ATTACK_NTF              : 0x0830,    // 全屏通知完成了几杀
+    CMD_SOCCER_REG_REQ          : 0x32A2,
+}
+
